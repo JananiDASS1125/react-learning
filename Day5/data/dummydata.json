@@ -1,0 +1,28 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "React Basics",
+      "price": 199
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Advanced",
+      "price": 299
+    },
+    {
+      "id": 3,
+      "title": "Node.js",
+      "price": 149
+    }
+  ]
+}
+
+
+How you run JSON Server
+
+npm install -g json-server
+json-server --watch data/dummydata.json --port 3000
+
+API becomes
+http://localhost:3000/courses
